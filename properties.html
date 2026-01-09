@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties - Seyi Odebode & Associates</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-soa-blue shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="index.html">
+                <span class="text-soa-green">S</span><span class="text-soa-cyan">O</span><span class="text-soa-cyan">A</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="properties.html">Properties</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-soa-green text-white ms-lg-3 px-4 shadow-sm" href="valuation.html">Request Valuation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="position-relative d-flex align-items-center justify-content-center text-white" style="height: 350px; margin-top: 70px;">
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background: url('https://images.unsplash.com/photo-1600596542815-6ad4c427fe4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover;"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-soa-blue" style="opacity: 0.85;"></div>
+        
+        <div class="container position-relative z-2 text-center">
+            <h1 class="display-4 fw-bold">Featured Properties</h1>
+            <p class="lead opacity-75">Browse our portfolio of premium properties available for sale and lease.</p>
+        </div>
+    </header>
+
+    <section class="py-4 bg-light border-bottom">
+        <div class="container">
+            <form class="row g-3 p-4 bg-white rounded-4 shadow-sm" style="margin-top: -80px; position: relative; z-index: 10;">
+                <div class="col-md-3">
+                    <label class="form-label fw-bold small text-secondary">Location</label>
+                    <input type="text" class="form-control bg-light border-0" placeholder="e.g. Ikoyi, Lekki">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label fw-bold small text-secondary">Property Type</label>
+                    <select class="form-select bg-light border-0">
+                        <option selected>All Types</option>
+                        <option>Residential</option>
+                        <option>Commercial</option>
+                        <option>Land</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label fw-bold small text-secondary">Budget</label>
+                    <select class="form-select bg-light border-0">
+                        <option selected>Any Price</option>
+                        <option>Under ₦50M</option>
+                        <option>₦50M - ₦200M</option>
+                        <option>₦200M+</option>
+                    </select>
+                </div>
+                <div class="col-md-3 d-flex align-items-end">
+                    <button type="submit" class="btn btn-soa-green w-100 fw-bold">Find Properties</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm property-card">
+                        <div class="position-relative">
+                            <span class="badge bg-soa-green position-absolute top-0 start-0 m-3 py-2 px-3">FOR SALE</span>
+                            <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="House">
+                            <div class="price-tag position-absolute bottom-0 end-0 bg-soa-blue text-white py-2 px-4 fw-bold">
+                                ₦150,000,000
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-soa-blue">Modern 5-Bed Duplex</h5>
+                            <p class="text-muted small"><i class="fas fa-map-marker-alt text-soa-green me-2"></i> Lekki Phase 1, Lagos</p>
+                            
+                            <div class="d-flex justify-content-between border-top border-bottom py-3 my-3">
+                                <span class="small"><i class="fas fa-bed text-secondary me-1"></i> 5 Beds</span>
+                                <span class="small"><i class="fas fa-bath text-secondary me-1"></i> 6 Baths</span>
+                                <span class="small"><i class="fas fa-ruler-combined text-secondary me-1"></i> 600 sqm</span>
+                            </div>
+                            
+                            <a href="contact.html" class="btn btn-outline-soa w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm property-card">
+                        <div class="position-relative">
+                            <span class="badge bg-soa-cyan position-absolute top-0 start-0 m-3 py-2 px-3">TO LET</span>
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Office">
+                            <div class="price-tag position-absolute bottom-0 end-0 bg-soa-blue text-white py-2 px-4 fw-bold">
+                                ₦80,000 / sqm
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-soa-blue">Premium Office Space</h5>
+                            <p class="text-muted small"><i class="fas fa-map-marker-alt text-soa-green me-2"></i> Victoria Island, Lagos</p>
+                            
+                            <div class="d-flex justify-content-between border-top border-bottom py-3 my-3">
+                                <span class="small"><i class="fas fa-building text-secondary me-1"></i> Open Plan</span>
+                                <span class="small"><i class="fas fa-parking text-secondary me-1"></i> Ample</span>
+                                <span class="small"><i class="fas fa-ruler-combined text-secondary me-1"></i> 250 sqm</span>
+                            </div>
+                            
+                            <a href="contact.html" class="btn btn-outline-soa w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm property-card">
+                        <div class="position-relative">
+                            <span class="badge bg-soa-green position-absolute top-0 start-0 m-3 py-2 px-3">FOR SALE</span>
+                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Land">
+                            <div class="price-tag position-absolute bottom-0 end-0 bg-soa-blue text-white py-2 px-4 fw-bold">
+                                ₦45,000,000
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-soa-blue">Serviced Plot of Land</h5>
+                            <p class="text-muted small"><i class="fas fa-map-marker-alt text-soa-green me-2"></i> Sangotedo, Ajah</p>
+                            
+                            <div class="d-flex justify-content-between border-top border-bottom py-3 my-3">
+                                <span class="small"><i class="fas fa-layer-group text-secondary me-1"></i> Residential</span>
+                                <span class="small"><i class="fas fa-file-alt text-secondary me-1"></i> C of O</span>
+                                <span class="small"><i class="fas fa-ruler-combined text-secondary me-1"></i> 600 sqm</span>
+                            </div>
+                            
+                            <a href="contact.html" class="btn btn-outline-soa w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm property-card">
+                        <div class="position-relative">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-3 py-2 px-3">SOLD</span>
+                            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Apartment" style="filter: grayscale(100%);">
+                            <div class="price-tag position-absolute bottom-0 end-0 bg-secondary text-white py-2 px-4 fw-bold">
+                                Sold Out
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-soa-blue">Luxury Apartment</h5>
+                            <p class="text-muted small"><i class="fas fa-map-marker-alt text-soa-green me-2"></i> Ikoyi, Lagos</p>
+                            
+                            <div class="d-flex justify-content-between border-top border-bottom py-3 my-3">
+                                <span class="small"><i class="fas fa-bed text-secondary me-1"></i> 3 Beds</span>
+                                <span class="small"><i class="fas fa-swimming-pool text-secondary me-1"></i> Pool</span>
+                                <span class="small"><i class="fas fa-ruler-combined text-secondary me-1"></i> 200 sqm</span>
+                            </div>
+                            
+                            <button class="btn btn-secondary w-100" disabled>No Longer Available</button>
+                        </div>
+                    </div>
+                </div>
+                 
+                 <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm property-card">
+                        <div class="position-relative">
+                            <span class="badge bg-soa-cyan position-absolute top-0 start-0 m-3 py-2 px-3">TO LET</span>
+                            <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Warehouse">
+                            <div class="price-tag position-absolute bottom-0 end-0 bg-soa-blue text-white py-2 px-4 fw-bold">
+                                ₦15M / Year
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-soa-blue">Industrial Warehouse</h5>
+                            <p class="text-muted small"><i class="fas fa-map-marker-alt text-soa-green me-2"></i> Apapa, Lagos</p>
+                            
+                            <div class="d-flex justify-content-between border-top border-bottom py-3 my-3">
+                                <span class="small"><i class="fas fa-truck-loading text-secondary me-1"></i> Loading Bay</span>
+                                <span class="small"><i class="fas fa-warehouse text-secondary me-1"></i> High Ceiling</span>
+                                <span class="small"><i class="fas fa-ruler-combined text-secondary me-1"></i> 1,000 sqm</span>
+                            </div>
+                            
+                            <a href="contact.html" class="btn btn-outline-soa w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm property-card">
+                        <div class="position-relative">
+                            <span class="badge bg-soa-green position-absolute top-0 start-0 m-3 py-2 px-3">FOR SALE</span>
+                            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Mansion">
+                            <div class="price-tag position-absolute bottom-0 end-0 bg-soa-blue text-white py-2 px-4 fw-bold">
+                                ₦450,000,000
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-soa-blue">Detached Mansion</h5>
+                            <p class="text-muted small"><i class="fas fa-map-marker-alt text-soa-green me-2"></i> Pinnock Beach Est.</p>
+                            
+                            <div class="d-flex justify-content-between border-top border-bottom py-3 my-3">
+                                <span class="small"><i class="fas fa-bed text-secondary me-1"></i> 6 Beds</span>
+                                <span class="small"><i class="fas fa-car text-secondary me-1"></i> 4 Cars</span>
+                                <span class="small"><i class="fas fa-ruler-combined text-secondary me-1"></i> 800 sqm</span>
+                            </div>
+                            
+                            <a href="contact.html" class="btn btn-outline-soa w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 d-flex justify-content-center">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item active" aria-current="page"><a class="page-link bg-soa-green border-soa-green" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link text-soa-blue" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link text-soa-blue" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link text-soa-blue" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-soa-blue text-white pt-5 pb-3 border-top border-4 border-soa-green">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                
+                <div class="col-lg-4 col-md-6">
+                    <a href="#" class="text-decoration-none text-white">
+                        <h3 class="fw-bold mb-3 letter-spacing-2">
+                            <span class="text-soa-green">S</span><span class="text-soa-cyan">O</span>A
+                        </h3>
+                    </a>
+                    <p class="opacity-75 small mb-4">
+                        Seyi Odebode & Associates is a leading firm of Estate Surveyors and Valuers dedicated to delivering integrity, accuracy, and professional excellence in the Nigerian real estate sector.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-soa-cyan mb-3 fw-bold">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-soa-cyan mb-3 fw-bold">Our Services</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="services.html">Property Valuation</a></li>
+                        <li><a href="services.html">Facility Management</a></li>
+                        <li><a href="services.html">Sales & Leasing</a></li>
+                        <li><a href="services.html">Investment Advisory</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-soa-cyan mb-3 fw-bold">Accreditation</h5>
+                    <p class="small opacity-75">We are proud members of regulatory bodies ensuring the highest standards of practice.</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <div class="bg-white text-soa-blue px-3 py-2 rounded fw-bold small shadow-sm">
+                            MEMBER NIESV
+                        </div>
+                        <div class="bg-white text-soa-blue px-3 py-2 rounded fw-bold small shadow-sm">
+                            REG. ESVARBON
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-top border-secondary pt-3 d-flex flex-column flex-md-row justify-content-between align-items-center small opacity-50">
+                <div>&copy; 2026 Seyi Odebode & Associates. All Rights Reserved.</div>
+
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/2348033745391" target="_blank" class="whatsapp-btn" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

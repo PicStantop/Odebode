@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Valuation - Seyi Odebode & Associates</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-soa-blue shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="index.html">
+                <span class="text-soa-green">S</span><span class="text-soa-cyan">O</span><span class="text-soa-cyan">A</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="properties.html">Properties</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-soa-green text-white ms-lg-3 px-4 shadow-sm" href="valuation.html">Request Valuation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="position-relative d-flex align-items-center justify-content-center text-white" style="height: 350px; margin-top: 70px;">
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover;"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-soa-blue" style="opacity: 0.9;"></div>
+        <div class="container position-relative z-2 text-center">
+            <h1 class="display-4 fw-bold">Request a Valuation</h1>
+            <p class="lead opacity-75">Get an accurate, NIESV-certified market value for your assets.</p>
+        </div>
+    </header>
+
+    <section class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    
+                    <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+                        <div class="card-header bg-soa-green text-white p-4 text-center">
+                            <h4 class="fw-bold mb-0"><i class="fas fa-file-signature me-2"></i> Valuation Request Form</h4>
+                            <p class="small mb-0 opacity-75">Please provide details about the property/asset.</p>
+                        </div>
+                        
+                        <div class="card-body p-5 bg-white">
+                            <form>
+                                <h5 class="text-soa-blue fw-bold mb-3 border-bottom pb-2">1. Contact Details</h5>
+                                <div class="row g-3 mb-4">
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-bold text-secondary">Full Name / Company Name</label>
+                                        <input type="text" class="form-control bg-light border-0 py-2">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-bold text-secondary">Phone Number</label>
+                                        <input type="tel" class="form-control bg-light border-0 py-2">
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label small fw-bold text-secondary">Email Address</label>
+                                        <input type="email" class="form-control bg-light border-0 py-2">
+                                    </div>
+                                </div>
+
+                                <h5 class="text-soa-blue fw-bold mb-3 border-bottom pb-2">2. Property Information</h5>
+                                <div class="row g-3 mb-4">
+                                    <div class="col-12">
+                                        <label class="form-label small fw-bold text-secondary">Property Address / Location</label>
+                                        <input type="text" class="form-control bg-light border-0 py-2" placeholder="e.g. 15, Adeola Odeku St, VI, Lagos">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-bold text-secondary">Type of Asset</label>
+                                        <select class="form-select bg-light border-0 py-2">
+                                            <option selected>Residential Building</option>
+                                            <option>Commercial Building</option>
+                                            <option>Industrial / Warehouse</option>
+                                            <option>Bare Land</option>
+                                            <option>Plant & Machinery</option>
+                                            <option>Motor Vehicles / Fleet</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-bold text-secondary">Purpose of Valuation</label>
+                                        <select class="form-select bg-light border-0 py-2">
+                                            <option selected>Determining Market Value (Sale/Purchase)</option>
+                                            <option>Rental Value Assessment</option>
+                                            <option>Insurance</option>
+                                            <option>Mortgage / Bank Loan</option>
+                                            <option>Visa / Embassy Requirement</option>
+                                            <option>Asset Register / Audit</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label small fw-bold text-secondary">Brief Description (No. of Rooms, Size, etc.)</label>
+                                        <textarea class="form-control bg-light border-0" rows="3"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-soa-blue py-3 fw-bold fs-5 shadow-sm">Submit Request</button>
+                                </div>
+                                <p class="text-center small text-muted mt-3">
+                                    <i class="fas fa-lock me-1"></i> Your information is confidential. We will contact you to schedule an inspection.
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-soa-blue text-white pt-5 pb-3 border-top border-4 border-soa-green">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                
+                <div class="col-lg-4 col-md-6">
+                    <a href="#" class="text-decoration-none text-white">
+                        <h3 class="fw-bold mb-3 letter-spacing-2">
+                            <span class="text-soa-green">S</span><span class="text-soa-cyan">O</span>A
+                        </h3>
+                    </a>
+                    <p class="opacity-75 small mb-4">
+                        Seyi Odebode & Associates is a leading firm of Estate Surveyors and Valuers dedicated to delivering integrity, accuracy, and professional excellence in the Nigerian real estate sector.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-soa-cyan mb-3 fw-bold">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-soa-cyan mb-3 fw-bold">Our Services</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="services.html">Property Valuation</a></li>
+                        <li><a href="services.html">Facility Management</a></li>
+                        <li><a href="services.html">Sales & Leasing</a></li>
+                        <li><a href="services.html">Investment Advisory</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-soa-cyan mb-3 fw-bold">Accreditation</h5>
+                    <p class="small opacity-75">We are proud members of regulatory bodies ensuring the highest standards of practice.</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <div class="bg-white text-soa-blue px-3 py-2 rounded fw-bold small shadow-sm">
+                            MEMBER NIESV
+                        </div>
+                        <div class="bg-white text-soa-blue px-3 py-2 rounded fw-bold small shadow-sm">
+                            REG. ESVARBON
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-top border-secondary pt-3 d-flex flex-column flex-md-row justify-content-between align-items-center small opacity-50">
+                <div>&copy; 2026 Seyi Odebode & Associates. All Rights Reserved.</div>
+                
+            </div>
+        </div>
+    </footer>
+    
+    <a href="https://wa.me/2348033745391" target="_blank" class="whatsapp-btn" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
