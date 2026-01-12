@@ -234,4 +234,22 @@ body {
 
 .price-tag {
     border-top-left-radius: 10px;
+
+}
+/* --- TEAM SECTION --- */
+.team-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.15) !important;
+}
+
+.team-card img {
+    transition: transform 0.5s ease;
+}
+
+.team-card:hover img {
+    transform: scale(1.05);
 }
